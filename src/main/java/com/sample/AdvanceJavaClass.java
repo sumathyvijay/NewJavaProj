@@ -1,3 +1,5 @@
+package com.sample;
+
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
 
