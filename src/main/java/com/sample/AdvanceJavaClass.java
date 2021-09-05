@@ -5,7 +5,10 @@ import org.apache.log4j.Logger;
 
 public class AdvanceJavaClass {
 
-    public static void main(String args[]) {
+    private static String[] args;
+
+    public static void main(String... args) {
+        AdvanceJavaClass.args = args;
 
         Logger log = Logger.getLogger(AdvanceJavaClass.class);
 
